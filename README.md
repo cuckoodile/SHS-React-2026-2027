@@ -1,16 +1,52 @@
-# React + Vite
+# TODO (11/25/26)
+Create a Pokedex that displays all the pokemons and can create a new Pokemon using a fill up form as a pop up modal form.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Use localstorage for data storing.
 
-Currently, two official plugins are available:
+# Pages
+- App (layout)
+- Gallery (landing page)
+- PokemonDetail (dynamic route)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Components
+- Header
+    > Add a button "Create", to display Form Modal
+- Card
+    > Show the attributes: name, type, and avatar
+- Form
+- Modal (Pop up):
+    > children
+    - Form
+- Button:
+    > variances
+    - default
+    - positive
+    - destructive
+    - muted (disabled)
+- Input:
+    > type
+    - With clear
+    - Without clear
+- Avatar:
+    > variances
+    - default (soft rounded box/rectangle)
+    - frame
+    - rounded
+- Type Badge:
+    > variance
+    - Grass (green)
+    - Water (blue)
+    - Fire (red)
+    - Rock (grey)
+    - Flying (magenta)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Pokemon Attributes
+- name
+- description
+- avatar
+- types:
+    - Grass
+    - Water
+    - Fire
+    - Rock
+    - Flying
