@@ -3,6 +3,9 @@ Create a Pokedex that displays all the pokemons and can create a new Pokemon usi
 
 Use localstorage for data storing.
 
+# Branch Name
+> s_0
+
 # Pages
 - App (layout)
 - Gallery (landing page)
